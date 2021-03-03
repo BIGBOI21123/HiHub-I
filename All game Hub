@@ -1,0 +1,17 @@
+if game.PlaceId == 855499080 then
+  CoreGui:SetCore("SendNotification", {
+	  Title = "Game:Skywars";
+  	Text = "Thank you for using HiHub I";
+  	Duration = 5;
+  	Button1 = "Ok";
+  })
+  wait(5.1)
+else
+  CoreGui:SetCore("SendNotification", {
+   	Title = "Game:Unknown";
+	  Text = "Please join a supported game";
+  	Duration = 5;
+  	Button1 = "Ok";
+  })
+  wait(5.1)
+end
