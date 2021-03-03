@@ -1,17 +1,18 @@
 if game.PlaceId == 855499080 then
   CoreGui:SetCore("SendNotification", {
-	  Title = "Game:Skywars";
+	Title = "Game:Skywars";
   	Text = "Thank you for using HiHub I";
   	Duration = 5;
   	Button1 = "Ok";
-  })
+	})
   wait(5.1)
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGBOI21123/HiHub-I/main/Skywars"))()
 else
   CoreGui:SetCore("SendNotification", {
    	Title = "Game:Unknown";
-	  Text = "Please join a supported game";
+	Text = "Please join a supported game";
   	Duration = 5;
   	Button1 = "Ok";
-  })
+  	})
   wait(5.1)
 end
