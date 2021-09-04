@@ -6,7 +6,7 @@ if game.PlaceId == 855499080 then
   	Button1 = "Ok";
 	})
   wait(5.1)
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGBOI21123/HiHub-I/main/Skywars"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/BIGBOI21123/HiHub-I/main/SkywarsUI"))()
 else
   CoreGui:SetCore("SendNotification", {
    	Title = "Game:Unknown";
